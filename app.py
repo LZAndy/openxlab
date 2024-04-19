@@ -4,7 +4,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel
 from openxlab.model import download
 
-base_path = './internlm2-chat-7b'
+base_path = './final_model'
 os.system(f'git clone https://code.openxlab.org.cn/Andy_lee/internlm-chat-1.8b-andy.git {base_path}')
 os.system(f'cd {base_path} && git lfs pull')
 
